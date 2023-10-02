@@ -50,6 +50,6 @@
 
 ![New-stage-test](./Images/Main-branch-and-feature-branch-building.png)
 
-### New stage Test successful build
+### New stage (Test) successful build
 
 ![New-stage-test-successful-Build](./Images/New-stage-test-successful-build.png)
