@@ -37,3 +37,19 @@
 ### Creating a new Git Branch under our Ansible Config Project
 
 ![New-git-branch](./Images/New-git-branch.png)
+
+### New Stage Added to our pipeline build script
+
+![New-stage-test](./Images/adding-a-stage-to-our-pipline-build-script.png)
+
+### Pushing our Changes to github
+
+![New-stage-test](./Images/changes-pushed-to-github.png)
+
+### Scanning our Repository on Jenkins and Launching a new build for the new stage(Test) in our Jenkins file script
+
+![New-stage-test](./Images/Main-branch-and-feature-branch-building.png)
+
+### New stage Test successful build
+
+![New-stage-test-successful-Build](./Images/New-stage-test-successful-build.png)
