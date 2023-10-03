@@ -44,12 +44,30 @@
 
 ### Pushing our Changes to github
 
-![New-stage-test](./Images/changes-pushed-to-github.png)
+![Merge-and-Pull-Request](./Images/changes-pushed-to-github.png)
 
 ### Scanning our Repository on Jenkins and Launching a new build for the new stage(Test) in our Jenkins file script
 
-![New-stage-test](./Images/Main-branch-and-feature-branch-building.png)
+![Main-Branch-and-Feature-Branch-Build](./Images/Main-branch-and-feature-branch-building.png)
 
 ### New stage (Test) successful build
 
 ![New-stage-test-successful-Build](./Images/New-stage-test-successful-build.png)
+
+### Quick Task Execution
+
+### New git branch Created
+
+![New-quicktask-git-branch](./Images/New-quicktask-git-branch-created.png)
+
+### New stages added to our Jenkins file pipeline script
+
+![New-stages-added](./Images/new-stages-added-p-d-c.png)
+
+### Scanning our Repository on Jenkins to Launch a new build for our new stages (package, deploy and cleanup) in our Jenkins file script
+
+![p-d-c-stages-build](./Images/p-d-c-stages-build.png)
+
+### Successful Pipeline build for our stages in blue Ocean
+
+![New-stages-successful-Build](./Images/New-stages-successful-Build.png)
