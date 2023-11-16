@@ -8,10 +8,6 @@
 
 ![Blue-Ocean-Installation-success](./Images/jenkins-blue-ocean-for-pipeline-creation.png)
 
-### Creating a new Pipeline with Blue Ocean
-
-![creating-a-new-pipeline-blue-ocean](./Images/creating-a-new-pipeline-with-blue-ocean.png)
-
 ### Setting up a deploy Directory in our Ansible Project and creating a jenkins file in it which will be used by jenkins for building our project
 
 ![setting-up-a-deploy-directory](./Images/setting-up-a-deploy-directory.png)
