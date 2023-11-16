@@ -2,72 +2,89 @@
 
 ### Configuring our Ansible Project For Jenkins Deployment using Blue Ocean Jenkins Plugin
 
-![Blue-Ocean-Installation](./Images/Blue-Ocean-Installation.png)
+### Jenkins Blue Ocean Plugin Installation
+
+![Blue-Ocean-Installation](./Images/blue-ocean-jenkins-plugin-installation-success.png)
+
+![Blue-Ocean-Installation-success](./Images/jenkins-blue-ocean-for-pipeline-creation.png)
 
 ### Creating a new Pipeline with Blue Ocean
 
-![Blue-Ocean-Installation](./Images/Creating-a-new-pipeline-with-blue-ocean.png)
-
-### Jenkins Successfully Connected with our Github Repo
-
-![Blue-Ocean-Installation](./Images/Newly-created-jenkins-ansible-pipeline.png)
+![creating-a-new-pipeline](./Images/creating-a-new-pipeline-with-blue-ocean.png)
 
 ### Setting up a deploy Directory in our Ansible Project and creating a jenkins file in it which will be used by jenkins for building our project
 
-![Jenkinsfile-created-inside-deploy-directory](./Images/Jenkinsfile-created-inside-deploy-directory.png)
+![setting-up-a-deploy-directory](./Images/setting-up-a-deploy-directory.png)
 
 ### Inserting our Shell script code snippet into our Jenkins file to Trigger our build process
 
-![Code-snippet](./Images/Jenkins-file-code-snippet-to-trigger-our-build.png)
+![Code-snippet](./Images/build-stage-code-snippet.png)
 
 ### Specifying the Location of our Jenkins file under our Project config on Jenkins
 
-![Jenkins-file-location-config-on-Jenkins](./Images/setting-pipeline-push-config.png)
+![specifying-Jenkinsfile-location](./Images/specifying-Jenkinsfile-location.png)
+
+### First successful Build
+
+![specifying-Jenkinsfile-location](./Images/first-successful-build.png)
 
 ### Our Pipeline CI Environment build Console Output
 
-![Console-Output](./Images/ci-environment-build-console-output.png)
-
-![Console-Output-2](./Images/ci-environment-build-console-output-2.png)
-
-![Build-Stage-view](./Images/Build-Stage-view.png)
+![console-output-1](./Images/console-output-1.png)
+![console-output-2](./Images/console-output-2.png)
+![console-output-3](./Images/console-output-3.png)
 
 ### Triggering Build for a Multibranch Pipeline
 
 ### Creating a new Git Branch under our Ansible Config Project
 
-![New-git-branch](./Images/New-git-branch.png)
+![new-branch-created-for-our-pipeline](./Images/new-branch-created-for-our-pipeline.png)
+
+### Creating a new Git Branch under our Ansible Config Project
+
+![new-branch-created-for-our-pipeline](./Images/new-branch-created-for-our-pipeline.png)
 
 ### New Stage Added to our pipeline build script
 
-![New-stage-test](./Images/adding-a-stage-to-our-pipline-build-script.png)
+![new-branch-created-for-our-pipeline](./Images/new-stage-added-to-build-script.png)
 
 ### Pushing our Changes to github
 
-![Merge-and-Pull-Request](./Images/changes-pushed-to-github.png)
+![pushing-changes-to-github-branch](./Images/pushing-changes-to-github-branch.png)
 
 ### Scanning our Repository on Jenkins and Launching a new build for the new stage(Test) in our Jenkins file script
 
-![Main-Branch-and-Feature-Branch-Build](./Images/Main-branch-and-feature-branch-building.png)
+![new-branch-active](./Images/new-branch-active-on-Jenkins.png)
 
 ### New stage (Test) successful build
 
-![New-stage-test-successful-Build](./Images/New-stage-test-successful-build.png)
+![new-branch-active](./Images/test-stage-successful-build.png)
 
 ### Quick Task Execution
 
-### New git branch Created
+### Pulling the latest change to main branch
+![pulling-our-change-to-main](./Images/pulling-our-change-to-main-branch.png)
 
-![New-quicktask-git-branch](./Images/New-quicktask-git-branch-created.png)
+### New git branch Created for new stages
 
-### New stages added to our Jenkins file pipeline script
+![new-branch-created-for-new-stages](./Images/new-branch-created-for-new-stages.png)
 
-![New-stages-added](./Images/new-stages-added-p-d-c.png)
+### New stages updated in Jenkinsfile build script
 
-### Scanning our Repository on Jenkins to Launch a new build for our new stages (package, deploy and cleanup) in our Jenkins file script
+![Jenkinsfile-build-script-updated](./Images/Jenkinsfile-build-script-updated-with-new-stages.png)
 
-![p-d-c-stages-build](./Images/p-d-c-stages-build.png)
+### Changes pushed to github Branch
 
-### Successful Pipeline build for our stages in blue Ocean
+![pushing-changes-for-P-D-C-stages-to-github-branch](./Images/pushing-changes-for-P-D-C-stages-to-github-branch.png)
 
-![New-stages-successful-Build](./Images/New-stages-successful-Build.png)
+### Scanning our Repository on Jenkins to Launch a new build for our new stages (package, deploy and cleanup) in our Jenkins file script on a new Branch
+
+![repository-scanned-for-new-branch-updated-with-new-stages](./Images/repository-scanned-for-new-branch.png)
+
+### Successful Pipeline build for our stages in blue Ocean (Stage view in Blue Ocean)
+
+![stage-view-in-blue-ocean](./Images/stage-view-in-blue-ocean.png)
+
+### Successful Pipeline build for our stages in Jenkins (Stage view in Jenkins)
+
+![stage-view-in-Jenkins](./Images/stage-view-in-jenkins.png)
