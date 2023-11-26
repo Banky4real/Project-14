@@ -88,3 +88,36 @@
 ### Successful Pipeline build for our stages in Jenkins (Stage view in Jenkins)
 
 ![stage-view-in-Jenkins](./Images/stage-view-in-jenkins.png)
+
+## Deploying with Ansible by Running Ansible Playbook From Jenkins
+
+### Ansible Installation on Jenkins CI Server
+
+![stage-view-in-Jenkins](./Images/ansible-installation-on-jenkins.png)
+
+### Ansible plugin installation on Jenkins UI
+
+![ansible-plugin-installation-on-Jenkins-ui](./Images/ansible-plugin-installation-on-Jenkins-ui.png)
+
+### Adding our Credentials on Jenkins so that it will be able to run our play book
+
+![adding-ssh-credentials-for-jenkins-to-run-ansible-playbook](./Images/adding-ssh-credentials-for-jenkins.png)
+
+### Specifying the path to our ansible interpreter on jenkins so it can build project
+
+![specifying-ansible-interpreter-path-to-jenkins](./Images/specifying-ansible-interpreter-path-to-jenkins-for-building-project.png)
+
+### Generating Pipeline script to run ansible playbook from Jenkins
+
+![generating-pipeline-script](./Images/generating-pipeline-script.png)
+
+### Defining a global ansible config for jenkins
+
+![global-ansible-config-file-for-jenkins](./Images/global-ansible-config-file-for-jenkins.png)
+
+### Running Playbook from Jenkins
+
+![playbook-run-from-jenkins-A](./Images/playbook-run-from-jenkins-A.png)
+
+![playbook-run-from-jenkins-B](./Images/playbook-run-from-jenkins-B.png)
+
