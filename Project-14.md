@@ -121,3 +121,72 @@
 
 ![playbook-run-from-jenkins-B](./Images/playbook-run-from-jenkins-B.png)
 
+### Parameterizing our Jenkins file to make our CI Environment Dynamic by removing the hardcoded value for our inventory and making the inventory variable dynamic
+
+![parameterizing-our-jenkins-file](./Images/parameterizing-our-jenkins-file.png)
+
+![building-with-parameter](./Images/building-with-parameter.png)
+
+## Pipeline for Todo Application
+
+### Deploying Todo Applications Onto Servers using Artifactory
+
+#### Forking ToDo Application into our Github account or on our Jenkins Server
+
+`git clone https://github.com/darey-devops/php-todo.git`
+
+![cloning-php-Todo-Application](./Images/cloning-php-Todo-Application.png)
+
+### Installing the necessary Dependencies to successfully deploy our Php Application and omposer tool.
+
+`sudo yum module reset php -y`
+`sudo yum install -y php php-common php-mbstring php-opcache php-intl php-xml php-gd php-curl php-mysqlnd php-fpm php-json`
+`sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm`
+`sudo dnf module install php:remi-7.4`
+`sudo dnf --enablerepo=remi install php-phpunit -phploc`
+`sudo wget -O phpunit https://phar.phpunit.de/phpunit-7.phar`
+`chmod +x phpunit`
+`sudo yum install php-xdebug`
+`sudo yum install zip`
+
+### php Composer
+`sudo curl -sS https://getcomposer.org/installer | php`
+`sudo mv composer.phar /usr/bin/composer`
+
+![Installing-php-dependencies](./Images/Installing-php-dependencies.png)
+
+### Installing Plot Plugin and Artifactory Plugin on Jenkins
+
+![plot-and-artifactory-plugin-installation](./Images/plot-and-artifactory-plugin-installation.png)
+
+### Installing artifactory on an artifactory server using ansible playbook role
+
+![artifactory-installation-via-playbook](./Images/artifactory-installation-via-playbook.png)
+
+### Jfrog Live on port 8082
+
+![artifactory-live-on-port-8082](./Images/artifactory-live-on-port-8082.png)
+
+### Configuring Jfrog Artifactory in jenkins UI via installed Artifactory Plugin
+
+![artifactory-configuration-in-jenkins](./Images/artifactory-configuration-in-jenkins.png)
+
+### Integrating Artifactory repository with Jenkins
+
+### Creating a dummy Jenkins file in Phptodo Repo
+
+![creating-a-dummy-Jenkinsfile-in-phptodo-repo](./Images/creating-a-dummy-Jenkinsfile-in-phptodo-repo.png)
+
+### Creating a Database and User on DB server using ansible playbook mysql role
+
+![database-and-database-user-created](./Images/database-and-database-user-created.png)
+
+![database-and-database-user-created](./Images/Database-created.png)
+
+### Creating a Multi-Branch Jenkins Pipeline Using Blue Ocean
+
+![multi-branch-pipeline-created](./Images/multi-branch-pipeline-created.png)
+
+### Prepare Dependency stage Script from our Jenkinsfile in our our phptodo app using 'mv .env.sample .env' shell to rename .env.sample to .env , composer install shell to install all the dependent libraries used by the application and php artisan shell to setup the required database objects
+
+![prepare-dependencies-stage-in-action](./Images/prepare-dependencies-stage-in-action.png)
