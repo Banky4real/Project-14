@@ -190,3 +190,35 @@
 ### Prepare Dependency stage Script from our Jenkinsfile in our our phptodo app using 'mv .env.sample .env' shell to rename .env.sample to .env , composer install shell to install all the dependent libraries used by the application and php artisan shell to setup the required database objects
 
 ![prepare-dependencies-stage-in-action](./Images/prepare-dependencies-stage-in-action.png)
+
+### Updating our Jenkins File to Include unit test stage, code quality analysis stage and archiving our application code to upload into artifactory and Publishing it to Artifactory
+
+![unit-test-code-quality-and-upload-to-artifactory-update](./Images/unit-test-code-quality-and-upload-to-artifactory-update.png)
+
+![unit-test-code-quality-and-upload-to-artifactory-update-2](./Images/unit-test-code-quality-and-upload-to-artifactory-update-2.png)
+
+### Deploying our code artifacts to artifactory server
+
+![code-deployed-to-artifactory-server](./Images/code-deployed-to-artifactory-server.png)
+
+### Artifacts live on artifactory server
+
+![artifacts-live-on-artifactory-server](./Images/artifacts-live-on-artifactory-server.png)
+
+### Plot Menu
+
+![plot-menu](./Images/plot-menu.png)
+
+### Deploying our php-todo application to todo server in Dev Environment
+
+![Deploying-to-dev-environment](./Images/Deploying-to-dev-environment.png)
+
+### php-todo application successfully deployed on todo server in Dev Environment
+
+![successful-deployment-on-our-todo-server-1](./Images/successful-deployment-on-our-todo-server-1.png)
+
+![successful-deployment-on-our-todo-server-2](./Images/successful-deployment-on-our-todo-server-2.png)#
+
+### php-todo application live on todo server
+
+![php-todo-application-live-on-todo-server](./Images/php-todo-application-live-on-todo-server.png)
