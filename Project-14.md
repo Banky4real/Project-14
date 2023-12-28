@@ -163,8 +163,7 @@
 
 ![artifactory-installation-via-playbook](./Images/artifactory-installation-via-playbook.png)
 
-### Jfrog Live on port 8082
-
+### Jfrog Live on port 8081
 ![artifactory-live-on-port-8082](./Images/artifactory-live-on-port-8082.png)
 
 ### Configuring Jfrog Artifactory in jenkins UI via installed Artifactory Plugin
@@ -222,3 +221,15 @@
 ### php-todo application live on todo server
 
 ![php-todo-application-live-on-todo-server](./Images/php-todo-application-live-on-todo-server.png)
+
+### Installing Sonarqube using downloaded sonarqube role from ansible galaxy
+
+![sonarqube-installation-via-downloaded-sonarqube-role](./Images/sonarqube-installation-via-downloaded-sonarqube-role.png)
+
+### Installing ansible community role for postgresql installation
+
+![ansible-community-role-for-postgresql-installation](./Images/ansible-community-role-for-postgresql-installation.png)
+
+### Postgresql installation
+
+![postgresql-10-installation](./Images/postgresql-10-installation.png)
