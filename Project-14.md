@@ -226,6 +226,10 @@
 
 ![sonarqube-installation-via-downloaded-sonarqube-role](./Images/sonarqube-installation-via-downloaded-sonarqube-role.png)
 
+### Sonarqube live on port 9000
+
+![sonarqube-live-on-port-9000](./Images/sonarqube-live-on-port-9000.png)
+
 ### Installing ansible community role for postgresql installation
 
 ![ansible-community-role-for-postgresql-installation](./Images/ansible-community-role-for-postgresql-installation.png)
@@ -233,3 +237,9 @@
 ### Postgresql installation
 
 ![postgresql-10-installation](./Images/postgresql-10-installation.png)
+
+## Configure Quality gate in Jenkins
+
+### Sonaqube scanner plugin installation for easy intergration of sonarqube
+
+![sonarqube-scanner-plugin-installation](./Images/sonarqube-scanner-plugin-installation.png)
