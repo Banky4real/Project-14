@@ -243,3 +243,47 @@
 ### Sonaqube scanner plugin installation for easy intergration of sonarqube
 
 ![sonarqube-scanner-plugin-installation](./Images/sonarqube-scanner-plugin-installation.png)
+
+### Adding sonarqube server on jenkins
+
+![adding-sonarqube-server-on-jenkins](./Images/adding-sonarqube-server-on-jenkins.png)
+
+### Generating Authentication token for jenkins on sonarqube
+
+![generating-token-for-jenkins-on-sonarqube](./Images/generating-token-for-jenkins-on-sonarquebe.png)
+
+### Creating a webhook for our Jenkins server in sonarqube
+
+![sonarqube-webhook-for-jenkins](./Images/sonarqube-webhook-for-jenkins.png)
+
+![webhook-created-for-jenkins-in-sonarqube](./Images/webhook-created-for-jenkins-in-sonarqube.png)
+
+### Setting up sonarqube scanner to scan our code for quality from Jenkins Global tool configurations
+
+![sonarqube-scanner-installation](./Images/sonarqube-scanner-installation.png)
+
+### Adding quality gate code snippet to our jenkinsfile shell script
+
+![quality-gate-code-snippet](./Images/quality-gate-code-snippet.png)
+
+### Quality gate executed successfully
+
+![quality-gate-executed-successfully](./Images/quality-gate-executed-successfully.png)
+
+![quality-gate-executed-successfully](./Images/quality-gate-code-snippet-2.png)
+
+### updating our quality gate code snippet to not deploy to dev environment if there are bugs in code
+
+![quality-gate-code-snippet-update](./Images/quality-gate-code-snippet-update.png)
+
+### Pipeline Aborted due to quality gate failure
+
+![pipeline-aborted-due-to-quality-gate-failure](./Images/pipeline-aborted-due-to-quality-gate-failure.png)
+
+### Introducing Jenkins Agents/slave
+
+![agents-configured-successfully](./Images/agents-configured-successfully.png)
+
+### Configuring webhook for our php-todo on github
+
+![webhook-for-php-todo](./Images/webhook-for-php-todo.png)
