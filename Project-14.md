@@ -276,14 +276,21 @@
 
 ![quality-gate-code-snippet-update](./Images/quality-gate-code-snippet-update.png)
 
+![git-branches-created-to-test-our-deployment](./Images/git-branches-created-to-test-our-deployment.png)
+
 ### Pipeline Aborted due to quality gate failure
 
 ![pipeline-aborted-due-to-quality-gate-failure](./Images/pipeline-aborted-due-to-quality-gate-failure.png)
+
+### Quality gate passed when run from develop branch
+
+![pipeline-aborted-due-to-quality-gate-failure](./Images/quality-gate-passed-when-run-from-develop-branch.png)
 
 ### Introducing Jenkins Agents/slave
 
 ![agents-configured-successfully](./Images/agents-configured-successfully.png)
 
+![nodes-communication](./Images/nodes-communication.png)
 ### Configuring webhook for our php-todo on github
 
 ![webhook-for-php-todo](./Images/webhook-for-php-todo.png)
